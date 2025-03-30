@@ -1,9 +1,5 @@
-，  H1 Header ##
-rrtyu ##
-gffyu ##
-tfdcgf  ##
-ggihb ##
-vgvjh ##
-ghkoye ##
-hgygy ##
+      - name: Set environment variables
+        run: |
+          echo "FILE=index.md" >> $GITHUB_ENV
+          echo "SEARCH='(?<!#)#{1,6}([\ \\t](.*))?$'" >> $GITHUB_ENV
 
